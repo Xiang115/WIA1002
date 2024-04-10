@@ -1,2 +1,4 @@
-# WIA1002
-Tuto and Lab for the course Data Structures (WIA 1002)
+# WIA1002 Data Structures Course
+Welcome to the repository for the WIA1002 Data Structures course! This repository contains tutorials and lab exercises to complement your learning.
+
+Happy coding! 🚀
