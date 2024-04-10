@@ -11,7 +11,7 @@ package Week1.Tutorial;
  */
 
 abstract class Vehicle {
-    private double maxSpeed;
+    private final double maxSpeed;
     protected double currentSpeed;
 
     public Vehicle(double maxSpeed){

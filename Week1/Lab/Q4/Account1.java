@@ -1,12 +1,10 @@
 package Week1.Lab.Q4;
 
-import java.util.ArrayList;
-import java.util.Date;
-
 import Week1.Lab.Q3.Account;
+import java.util.ArrayList;
 
 public class Account1 extends Account {
-    private String name;
+    private final String name;
     ArrayList<Transaction> transactions = new ArrayList<>();
 
     public Account1(String name, int id, double balance) {
