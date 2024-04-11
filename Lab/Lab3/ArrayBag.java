@@ -58,9 +58,9 @@ public class ArrayBag<T> implements BagInterface<T> {
         if (index == -1)
             return false;
 
-            bag[index] = bag[--numberOfEntries];
-            bag[numberOfEntries] = null;
-            return true;
+        bag[index] = bag[--numberOfEntries];
+        bag[numberOfEntries] = null;
+        return true;
     }
 
     @SuppressWarnings("unchecked")

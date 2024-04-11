@@ -1,4 +1,4 @@
-package Week3.Lecture3;
+package Lecture.Lecture3;
 
 /**
     A class of bags whose entries are stored in a fixed-size array.

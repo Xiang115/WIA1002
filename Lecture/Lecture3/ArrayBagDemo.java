@@ -1,4 +1,4 @@
-package Week3.Lecture3;
+package Lecture.Lecture3;
 
 /** A demonstration of the class ArrayBag
     @author Frank M. Carrano
