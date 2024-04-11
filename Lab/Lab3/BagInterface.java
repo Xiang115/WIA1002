@@ -74,4 +74,25 @@ public interface BagInterface<T> {
      * @return a newly allocated array of all the entries in the bag
      */
     public T[] toArray();
+
+        /**
+     * Return the combination of both bags.
+     * @param bag the bag to union with
+     * @return the union of the current bag and the parameter bag
+     */
+    public BagInterface<T> union(BagInterface<? extends T> bag);
+
+    /**
+     * Return the intersection of both bags.
+     * @param bag the bag to intersect with
+     * @return the intersect of the current bag and the parameter bag
+     */
+    public BagInterface<T> intersection(BagInterface<? extends T> bag);
+
+    /**
+     * Return the current bag - parameter bag
+     * @param bag the bag to be subtracted
+     * @return the subtraction of the current bag and the parameter bag
+     */
+    public BagInterface<T> difference(BagInterface<? extends T> bag);
 } // end BagInterface
