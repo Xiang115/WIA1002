@@ -24,7 +24,7 @@ public class LinkedList<E> {
 //		
 //		g)
         Node<E> newNode = new Node<>(o);
-        if (index < 0 || index >= size) {
+        if (index < 0) {
             throw new IndexOutOfBoundsException("Invalid index");
         }else if (index == 0) {
             addFirst(o);
