@@ -32,3 +32,54 @@ Draw the contents of the three stacks after the operations are complete.
 ## Solution (Q2)
 !["Image"](https://github.com/Xiang115/WIA1002/blob/main/Tutorial/Tutorial6/Src/Screenshot%202024-04-20%20193110.png)
 
+## Question 3
+Over time, the elements 1, 2, and 3 are pushed onto a stack in that order. For each of the following, 
+indicate (yes or no) whether the sequence could be created by popping operations. If yes, list the 
+sequence of `push()` and `pop()` operations that produces the sequence.     
+```bash
+(a) 1-2-3 (b) 2-3-1 (c) 3-2-1 (d) 1-3-2
+```
+
+## Solution (Q3)
+(a)    
+```bash
+stack.push(1);
+stack.pop();
+stack.push(2);
+stack.pop();
+stack.push(3);
+stack.pop();
+```
+
+(b)    
+```bash
+stack.push(1);
+stack.push(2);
+stack.pop();
+stack.push(3);
+stack.pop();
+stack.pop();
+```
+
+(c)    
+```bash
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.pop();
+stack.pop();
+stack.pop();
+```
+
+(d)    
+```bash
+stack.push(1);
+stack.pop();
+stack.push(2);
+stack.push(3);
+stack.pop();
+stack.pop();
+```
+
+## Question 4:
+Convert the following infix expressions to postfix:
