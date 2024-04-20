@@ -9,7 +9,10 @@ c. peek
 d. spy
 ```
 ## Solution (Q1)
+```bash
 Answer = c
+```
 
 ## Question 2
 We have three stacks, s1, s2 and s3, that can contain data of type String. Here are their initial contents:
+![]("C:\Users\Goh\Pictures\Screenshots\Screenshot 2024-04-20 184144.png")
