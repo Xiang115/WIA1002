@@ -15,7 +15,7 @@ Answer = c
 
 ## Question 2
 We have three stacks, s1, s2 and s3, that can contain data of type String. Here are their initial contents:
-![mamba](Tutorial/Tutorial6/Src/Screenshot 2024-04-20 184144.png)
+![Image](Src/Screenshot 2024-04-20 184144.png)
 As you can see, initially s2 and s3 are empty. Here is a sequence of operations on the three stacks:
 ```bash
 s2.push(s1.pop());
@@ -28,5 +28,5 @@ s2.push(s1.pop());
 Draw the contents of the three stacks after the operations are complete.
 
 ## Solution (Q2)
-![mamba](Tutorial/Tutorial6/Src/Screenshot 2024-04-20 193110.png)
+![Image](Src/Screenshot 2024-04-20 193110.png)
 
