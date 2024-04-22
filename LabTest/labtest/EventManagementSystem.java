@@ -16,9 +16,9 @@ import java.io.FileReader;
 public class EventManagementSystem {
 
     public static void main(String[] args) {
-        String filename = "events.txt";
+        String filename = "LabTest/events.txt";
         try {
-            EventManager<Event> event = null;
+            EventManager<Event> event = new EventManager<>();
             FileReader file = new FileReader(filename);
             BufferedReader br = new BufferedReader(file);
             String input;
@@ -30,7 +30,7 @@ public class EventManagementSystem {
                 if (type.equals("Concert") || type.equals("Workshop") || type.equals("SportsGame")) {
                     if (type.equals("Concert")) {
                         Concert c1 = new Concert(info[1], info[2], info[3], info[4]);
-                        event = new EventManager(c1);
+                        event.addList(c1);;
                     } else if (type.equals("Workshop")) {
                         Workshop w1 = new Workshop(info[1], info[2], info[3], info[4], info[5]);
                         event.addList(w1);

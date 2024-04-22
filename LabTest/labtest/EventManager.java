@@ -14,9 +14,8 @@ import java.util.ArrayList;
 public class EventManager<T extends Event> {
     private ArrayList<T> list;  
     
-    public EventManager(T obj){
+    public EventManager(){
         this.list = new ArrayList<>();
-        list.add(obj);
     }
     
     public void addList(T obj){
