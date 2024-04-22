@@ -27,6 +27,15 @@ public class TowerOfHanoi {
         solve(numOfDisk, rods, 0, 1, 2);
     }
 
+    /*
+     * This solution is using the recursive algorithm to solve it.
+     * For example: n = 3
+     * 1) move 2 disk from A to B ----> (n-1) disk from A to B
+     * 2) move 1 disk from A to C 
+     * 3) move 2 disk from B to C ----> (n-1) disk from B to C
+     * 
+     * so that we can set the base case to when n=1 move the disk to C
+     */
     public static void solve(int numOfDisk, Stack<Integer>[] rods, int first, int middle, int end) { 
         //base case
         if (numOfDisk == 1) {
