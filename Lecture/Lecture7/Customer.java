@@ -1,5 +1,3 @@
-package Lecture.Lecture7
-
 public class Customer implements Comparable<Customer> {
     private Integer id;
     private String name;
