@@ -17,21 +17,19 @@ public class PriorityQueueDemo {
       System.out.print(queue1.poll() + " ");
     }
 
-System.out.println("\n====================================");
-    PriorityQueue<String> queue2 
-      = new PriorityQueue<>(4, Collections.reverseOrder());
+    System.out.println("\n====================================");
+    PriorityQueue<String> queue2 = new PriorityQueue<>(4, Collections.reverseOrder());
     queue2.offer("Oklahoma");
     queue2.offer("Indiana");
     queue2.offer("Indiana");
     queue2.offer("Georgia");
     queue2.offer("Texas");
-        System.out.println(queue2.comparator());
-        System.out.println(queue2.iterator());
+    System.out.println(queue2.comparator());
+    System.out.println(queue2.iterator());
     System.out.println("\nPriority queue using Comparator:");
     while (queue2.size() > 0) {
-        System.out.print(queue2.poll() + " ");
+      System.out.print(queue2.poll() + " ");
     }
     System.out.println();
   }
 }
-
