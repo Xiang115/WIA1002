@@ -11,12 +11,12 @@ public class Main {
         }
     }
 
-    public static boolean isPalindrome(String word){
+    public static boolean isPalindrome(String word) {
         Queue<Character> queue = new LinkedList<>();
-        for(int i=0;i<(word.length()+1)/2;i++)
+        for (int i = 0; i < (word.length() + 1) / 2; i++)
             queue.offer(word.charAt(i));
-        for(int i=word.length()-1; i>word.length()/2;i--){
-            if(word.charAt(i)!=queue.poll())
+        for (int i = word.length() - 1; i > word.length() / 2; i--) {
+            if (word.charAt(i) != queue.poll())
                 return false;
         }
         return true;
