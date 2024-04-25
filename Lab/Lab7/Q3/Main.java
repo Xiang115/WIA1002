@@ -34,12 +34,14 @@ public class Main {
                 share.offer(Integer.parseInt(word[1]));
                 price.offer(Integer.parseInt(word[4].substring(1)));
                 System.out.println("Buying now...");
+                waiting();
                 Display();
 
             } else if (word[0].equalsIgnoreCase("Sell")) {
                 int SellShare = Integer.parseInt(word[1]);
                 int SellPrice = Integer.parseInt(word[4].substring(1));
                 System.out.println("Selling the shares now...");
+                waiting();
                 calcTotal(SellShare, SellPrice);
                 Display();
             }
@@ -75,4 +77,16 @@ public class Main {
             System.out.println("Total Capital Gain / Loss: " + total);
         }
     }
+
+    static void waiting(int milliseconds) {
+		try {
+			Thread.sleep(milliseconds);
+		} catch (InterruptedException ex) {
+			ex.printStackTrace();
+		}
+	}
+
+	static void waiting() {
+		waiting(1000);
+	}
 }
