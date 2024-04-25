@@ -79,14 +79,14 @@ public class Main {
     }
 
     static void waiting(int milliseconds) {
-		try {
-			Thread.sleep(milliseconds);
-		} catch (InterruptedException ex) {
-			ex.printStackTrace();
-		}
-	}
+        try {
+            Thread.sleep(milliseconds);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
 
-	static void waiting() {
-		waiting(1000);
-	}
+    static void waiting() {
+        waiting(1000);
+    }
 }
