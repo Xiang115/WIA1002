@@ -55,8 +55,9 @@ public class Main {
         System.out.println("Queue for Price: Queue: " + price);
     }
 
-    public static void calcTotal(int SellShare, int SellPrice) {
+    public static void calcTotal(int SellShare, int SellPrice) { //50 left 40 only
         while (SellShare > 0) {
+            //so this one will read again then break the while loop
             if (share.isEmpty()) {
                 System.out.println("No shares to sell!");
                 break;
@@ -64,7 +65,7 @@ public class Main {
 
             if (SellShare >= share.peek()) {
                 total += share.peek() * (SellPrice - price.poll());
-                SellShare -= share.poll();
+                SellShare -= share.poll(); //sellshare = 10
             } else {
                 total += SellShare * (SellPrice - price.peek());
                 share.offer(share.peek() - SellShare);
