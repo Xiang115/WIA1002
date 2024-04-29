@@ -27,6 +27,6 @@ public class TestGenericStack {
     // Remove elements from the stack
     System.out.println("(4) " + stack.pop());
     System.out.println("(5) " + stack.pop());
-    System.out.println("(6) " + stack);    
+    System.out.println("(6) " + stack);
   }
-}  
+}
