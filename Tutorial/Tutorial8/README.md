@@ -1,9 +1,9 @@
 # Tutorial 8 (Priority Queue)
 
-## Question 1
+## Question 1:
 Describe the main difference between Queue and PriorityQueue.
 
-## Solution (Q1)  
+## Solution (Q1):  
 ```bash
 * Queue   
 linear data structure that follows the `First-In-First-Out (FIFO) principle`.   
@@ -14,17 +14,17 @@ linear data structure but manages elements based on their `priority`.
 Elements are removed based on their `priority`.   
 ```
 
-## Question 2
+## Question 2:
 Briefly provide THREE (3) real-life example in using PriorityQueue.
 
-## Solution (Q2)
+## Solution (Q2):
 ```bash
 * Job Scheduling in Operating Systems  
 * Event Handling in Simulation Systems   
 * Network Packet Processing  
 ```
 
-## Question 3
+## Question 3:
 Show the output for every System.out.println ((a) – (f)) in the following code:
 ```java
 import java.util.*;
@@ -67,7 +67,7 @@ public static void main(String args[]){
 }
 ```
 
-## Solution (Q3)   
+## Solution (Q3):   
 Part (a):   
 ```bash
 peek() give us: C++   
@@ -109,7 +109,7 @@ Value: Python
 Value: Fortran     
 ```
 
-## Question 4
+## Question 4:
 Answer the following sub-questions with referring to the following code:
 ```java
 public class PriorityQueue2 {
@@ -144,7 +144,7 @@ public class PriorityQueueComparator implements Comparator<String>{
 (b) What is the output for the code?
 ```
 
-## Solution (Q4)
+## Solution (Q4):
 (a) Its purpose is to define a custom comparison logic for strings based on their `lengths`.   
 (b) The output of the code:   
 ```bash
