@@ -7,7 +7,7 @@ public class ReadMyLetter {
     public static void main(String[] args) {
         try{
             //Part 1
-            String filepath = "GOH_23004987.txt";
+            String filepath = "Lab\\Lab1\\Q1\\GOH_23004987.txt";
             Scanner sc = new Scanner(new FileInputStream(filepath));
             while(sc.hasNextLine()){
                 System.out.println(sc.nextLine());
