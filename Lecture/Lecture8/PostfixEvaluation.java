@@ -52,7 +52,7 @@ public class PostfixEvaluation {
         } // end for
 
         return (valueStack.peek());
-    } // end evaluatePostfix
+    }
 
     /**
      * Evaluates a postfix expression.

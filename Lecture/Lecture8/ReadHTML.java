@@ -26,6 +26,7 @@ public class ReadHTML {
             int k = html.indexOf('>', j + 1); // find next ’>’ character
             if (k == -1)
                 return false; // invalid tag
+
             String tag = html.substring(j + 1, k); // strip away < >
             if (!tag.startsWith("/")) // this is an opening tag
                 buffer.push(tag);
@@ -35,6 +36,7 @@ public class ReadHTML {
                 if (!tag.substring(1).equals(buffer.pop()))
                     return false; // mismatched tag
             }
+            
             j = html.indexOf('<', k + 1); // find next ’<’ character (if any)
         }
         return buffer.isEmpty(); // were all opening tags matched?
