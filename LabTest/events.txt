@@ -1,3 +1,0 @@
-Concert,EV100,Spring Jam,2024-07-15,The Good Ones
-Workshop,EV101,Creative Writing,2024-08-20,Storytelling Basics,Jane Doe
-SportsGame,EV102,Community Rugby Game,2024-09-05,Rugby
