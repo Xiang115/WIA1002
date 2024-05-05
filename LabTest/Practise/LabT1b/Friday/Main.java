@@ -92,14 +92,16 @@ public class Main {
     }
 
     public static List<List<?>> pointInTimeJoin(List<Features<?>> features, Features<? extends Comparable<?>> label) {
+        //Do the sorting first accroding the dates
         for (Features<?> feature : features)
             feature.sortByDate();
 
+        //Declare a nested list
         List<List<?>> res = new ArrayList<>();
         for (Data<?> labelData : label.getData()) {
             List<Object> row = new ArrayList<>();
             String user = labelData.getUser();
-            int date = labelData.getDate();
+            int date = labelData.getDate();     //date: 0,1,2,3
 
             for (Features<?> feature : features) {
                 List<? extends Data<?>> featureData = feature.getData();
@@ -107,14 +109,14 @@ public class Main {
                     res.add(null);
                     continue;
                 }
-                Data<?> latest = featureData.get(0);
+                Data<?> latest = featureData.get(0);    //find the deviation, then latitude & longitude
                 for (Data<?> value : featureData)
                     if (value.getUser().equals(user) && value.getDate() <= date)
                         latest = value;
-                row.add(latest.getData());
+                row.add(latest.getData());      //add the latest
             }
-            row.add(labelData.getData());
-            res.add(row);
+            row.add(labelData.getData());       //add the is_fraud
+            res.add(row);       //update the row
             // System.out.println(row);
         }
         return res;
