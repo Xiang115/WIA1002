@@ -1,4 +1,4 @@
-package LabTest.LabT1;
+package LabTest.Practise.LabT1;
 
 public class Person{
     private String ContactName;

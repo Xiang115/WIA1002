@@ -1,4 +1,4 @@
-package LabTest.LabT1;
+package LabTest.Practise.LabT1;
 
 import java.util.ArrayList;
 
