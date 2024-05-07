@@ -14,6 +14,7 @@ public class Main {
         Person katie = new Person("katie", 36, "f", "teacher");
         raw.push(katie);
         raw.displayStack();
+        System.out.println();
 
         Stack<Person> frontliner = new Stack<>("Frontliner");
         Stack<Person> others = new Stack<>("Others");
@@ -34,6 +35,7 @@ public class Main {
         System.out.println("-------------------");
         others.displayStack();
         System.out.println("-------------------");
+        System.out.println();
 
         Stack<Person> priority = new Stack<>("Vaccine Priority List");
 
@@ -46,6 +48,11 @@ public class Main {
             frontliner = HighPriority(frontliner);
             priority.push(frontliner.pop());
         }
+        System.out.println("~~~~~~~Sort into Vaccine list~~~~~");
+        others.displayStack();
+        System.out.println("-------------------");
+        frontliner.displayStack();
+        System.out.println("-------------------");
         priority.displayStack();
     }
 
