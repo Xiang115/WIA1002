@@ -1,5 +1,9 @@
 package LabTest.LabTest2;
 
+//Error handling is quite important
+// you need to suppose the user have 0 knowledge of cs
+// your system need to handle various case and print out
+
 public class Main {
     public static void main(String[] args) {
         EntranceGateStack<Integer> stack = new EntranceGateStack<>();
