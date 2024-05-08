@@ -14,7 +14,7 @@ public class DoublyLinkedList<E> {
             this(e, null, null);
         }
 
-        public Node(E e, Node next, Node prev) {
+        public Node(E e, Node<E> next, Node<E> prev) {
             this.element = e;
             this.next = next;
             this.prev = prev;
@@ -61,7 +61,7 @@ public class DoublyLinkedList<E> {
             Node<E> temp = head;
             for (int i = 0; i < index; i++)
                 temp = temp.next;
-            Node<E> newNode = new Node(e, temp, temp.prev);
+            Node<E> newNode = new Node<>(e, temp, temp.prev);
             temp.prev.next = newNode;
             temp.prev = newNode;
             size++;
