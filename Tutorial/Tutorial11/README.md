@@ -19,7 +19,7 @@ The linear search algorithm will iterates 5 time to find the 54 in the list.
 ``` 
 
 Binary Search:     
-Binary search is a more efficient algorithm but requires the list to be sorted beforehand.     
+`Binary search` is a more efficient algorithm but requires the list to be sorted beforehand.     
 ```bash
 Searching for 45:     
 Since 45 is not in the list, thus it will return -1.    
@@ -106,21 +106,21 @@ d. Merge sort:
 ```  
 
 ## Question 3:
-Which type of sort algorithm is this?
+Which type of sort algorithm is this?     
 !["Image](https://github.com/Xiang115/WIA1002/blob/main/Tutorial/Tutorial11/Src/Screenshot%202024-05-23%20221256.png)    
 
 ## Solution (Q3):
 Merge sort    
 
 ## Question 4:
-Which type of search algorithm is this?
+Which type of search algorithm is this?     
 !["Image](https://github.com/Xiang115/WIA1002/blob/main/Tutorial/Tutorial11/Src/Screenshot%202024-05-23%20221304.png) 
 
 ## Solution (Q4):
 Binary search
 
 ## Question 5:
-Which type of search algorithm is this?
+Which type of search algorithm is this?     
 !["Image](https://github.com/Xiang115/WIA1002/blob/main/Tutorial/Tutorial11/Src/Screenshot%202024-05-23%20221312.png) 
 
 ## Solution (Q6):
