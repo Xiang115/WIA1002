@@ -8,16 +8,16 @@ public class Main {
         selectionSortSmallest(arr);
         System.out.println("Selection sort ascending: " + Arrays.toString(arr));
 
-        arr = new int[] {45, 7, 2, 8, 19, 3};
-		selectionSortLargest(arr);
-		System.out.println("Selection sort descending: " + Arrays.toString(arr));
-		
-		arr = new int[] {10, 34, 2, 56, 7, 67, 88, 42};
-		InsertionSort(arr);
-		System.out.println("Insertion sort ascending: " + Arrays.toString(arr));
+        arr = new int[] { 45, 7, 2, 8, 19, 3 };
+        selectionSortLargest(arr);
+        System.out.println("Selection sort descending: " + Arrays.toString(arr));
+
+        arr = new int[] { 10, 34, 2, 56, 7, 67, 88, 42 };
+        InsertionSort(arr);
+        System.out.println("Insertion sort ascending: " + Arrays.toString(arr));
     }
 
-    //Q1
+    // Q1
     public static void selectionSortSmallest(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             int Small = arr[i];
@@ -37,7 +37,7 @@ public class Main {
         }
     }
 
-    //Q2
+    // Q2
     public static void selectionSortLargest(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             int Large = arr[i];
@@ -57,15 +57,15 @@ public class Main {
         }
     }
 
-    //Q4
+    // Q4
     public static void InsertionSort(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
             int small = arr[i];
             int k;
             for (k = i - 1; k >= 0 && arr[k] > small; k--) {
-                arr[k+1] = arr[k];
+                arr[k + 1] = arr[k];
             }
-            arr[k+1] = small;
+            arr[k + 1] = small;
         }
     }
 }
