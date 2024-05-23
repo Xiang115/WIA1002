@@ -1,5 +1,5 @@
 
-public class SelectionSort {
+public class SelectionSort2 {
   public static void selectionSort(double[] list) {
     for (int i = 0; i < list.length - 1; i++) {
       double currentMin = list[i];
@@ -20,10 +20,9 @@ public class SelectionSort {
   }
 
   public static void main(String[] args) {
-    double[] list = {-2, 4.5, 5, 1, 2, -3.3};
+    double[] list = { -2, 4.5, 5, 1, 2, -3.3 };
     selectionSort(list);
     for (int i = 0; i < list.length; i++)
       System.out.print(list[i] + " ");
   }
 }
-

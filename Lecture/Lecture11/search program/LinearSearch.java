@@ -9,7 +9,7 @@ public class LinearSearch {
   }
 
   public static void main(String[] args) {
-    int[] list = {4, 5, 1, 2, 9, -3};
+    int[] list = { 4, 5, 1, 2, 9, -3 };
     System.out.println(linearSearch(list, 2));
   }
 }

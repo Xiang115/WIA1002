@@ -1,17 +1,15 @@
 /**
-* SortPhoneList driver for testing an object selection sort.
-*
-* @author 
-* @version 4.0
-*/
-public class SortPhoneList
-{
+ * SortPhoneList driver for testing an object selection sort.
+ *
+ * @author
+ * @version 4.0
+ */
+public class SortPhoneList {
     /**
-    * Creates an array of Contact objects, sorts them, then prints
-    * them.
-    */
-    public static void main(String[] args)
-    {
+     * Creates an array of Contact objects, sorts them, then prints
+     * them.
+     */
+    public static void main(String[] args) {
         Contact[] friends = new Contact[7];
         friends[0] = new Contact("John", "Smith", "610-555-7384");
         friends[1] = new Contact("Sarah", "Barnes", "215-555-3827");
@@ -24,11 +22,11 @@ public class SortPhoneList
         GenericSelectionSort2.selectionSort(friends);
         for (Contact friend : friends)
             System.out.println(friend);
-        
-        String[] strArray = {"B", "D" , "A", "Z"};
+
+        String[] strArray = { "B", "D", "A", "Z" };
         GenericSelectionSort2.selectionSort(strArray);
         for (String str : strArray)
             System.out.println(str);
     }
-       
+
 }
