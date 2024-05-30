@@ -1,4 +1,4 @@
-package Tutorial.Tutorial12;
+package Lecture.Lecture12;
 
 public abstract class AbstractTree<E> implements Tree<E> {
     @Override

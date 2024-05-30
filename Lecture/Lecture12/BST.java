@@ -1,4 +1,4 @@
-package Tutorial.Tutorial12;
+package Lecture.Lecture12;
 
 public class BST<E extends Comparable<E>>
         extends AbstractTree<E> {
