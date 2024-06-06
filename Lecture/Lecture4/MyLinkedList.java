@@ -152,7 +152,7 @@ public class MyLinkedList<E> extends MyAbstractList<E> {
     for (int i = 0; i < size; i++) {
       result.append(current.element);
       current = current.next;
-      if (current != null) {
+      if (current.next != null) {
         result.append(", "); // Separate two elements with a comma
       } else {
         result.append("]"); // Insert the closing ] in the string
