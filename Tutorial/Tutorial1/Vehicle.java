@@ -1,14 +1,4 @@
-package Week1.Tutorial1;
-
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author Goh
- */
+package Tutorial.Tutorial1;
 
 abstract class Vehicle {
     private final double maxSpeed;

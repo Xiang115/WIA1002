@@ -1,4 +1,4 @@
-package Week1.Tutorial1;
+package Tutorial.Tutorial1;
 
 //Q1
 //public class Tuto {

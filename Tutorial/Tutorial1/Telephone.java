@@ -1,4 +1,4 @@
-package Week1.Tutorial1;
+package Tutorial.Tutorial1;
 
 public class Telephone {
     private String areaCode, number;
