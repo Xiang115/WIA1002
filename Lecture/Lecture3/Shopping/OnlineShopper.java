@@ -1,7 +1,7 @@
-package Week3.Lecture3.Shopping;
+package Lecture.Lecture3.Shopping;
 
-import Week3.Lecture3.ArrayBag;
-import Week3.Lecture3.BagInterface;
+import Lecture.Lecture3.ArrayBag;
+import Lecture.Lecture3.BagInterface;
 
 /** A class that maintains a shopping cart for an online store.
     @author Frank M. Carrano

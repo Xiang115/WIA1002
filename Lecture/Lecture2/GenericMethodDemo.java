@@ -1,4 +1,4 @@
-package Week2.Lecture;
+package Lecture.Lecture2;
 
 public class GenericMethodDemo {
   public static void main(String[] args ) {

@@ -1,4 +1,4 @@
-package Week3.Lecture3;
+package Lecture.Lecture3;
 
 /**
    An interface that describes the operations of a bag of objects.

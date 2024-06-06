@@ -1,4 +1,4 @@
-package Week3.Lecture3.Shopping;
+package Lecture.Lecture3.Shopping;
 
 /** A class of items for sale.
     @author Frank M. Carrano

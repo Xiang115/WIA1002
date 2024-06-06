@@ -1,7 +1,7 @@
-package Week3.Lecture3.PiggyBank;
+package Lecture.Lecture3.PiggyBank;
 
-import Week3.Lecture3.ArrayBag;
-import Week3.Lecture3.BagInterface;
+import Lecture.Lecture3.ArrayBag;
+import Lecture.Lecture3.BagInterface;
 
 /**
     A class that implements a piggy bank by using a bag.

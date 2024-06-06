@@ -1,4 +1,4 @@
-package Week3.Lecture3.PiggyBank;
+package Lecture.Lecture3.PiggyBank;
 
 /**
     A class that demonstrates the class PiggyBank.

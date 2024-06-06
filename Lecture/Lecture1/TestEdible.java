@@ -1,4 +1,4 @@
-package Week1.Lecture;
+package Lecture.Lecture1;
 
 public class TestEdible {
   public static void main(String[] args) {
