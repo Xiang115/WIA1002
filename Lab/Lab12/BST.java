@@ -1,11 +1,6 @@
-public class BST {
-
-}
 package Lab.Lab12;
 
 import java.util.ArrayList;
-
-import Lecture.Lecture12.Tree;
 
 public class BST<E extends Comparable<E>> {
     protected TreeNode<E> root;
