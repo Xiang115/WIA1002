@@ -1,3 +1,6 @@
+public class BST {
+
+}
 package Lab.Lab12;
 
 import java.util.ArrayList;
